@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="scanpage.css">
+</head>
+<body>
+    <div class="backgrround"></div>
+    <div class="preset1"></div>
+    <label class="lable_preset1">Preset1</label>
+    <div class="preset2"></div>
+    <label class="lable_preset2">Preset2</label>
+    <button type="home_btn" onclick="location.href='mainpage.html'">Home</button>
+    <form class="perrsonal_information">
+        <label class="lable_gender">Gender</label>
+        <select class="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <label class="label_height">Height</label>
+        <input class="height" type="number">
+        <label class="label_weight">weight</label>
+        <input class="weight" type="number">
+    </form>
+    <div class="instruction"></div>
+    <button class="scan_btn">scan</button>
+
+    <div class="complete">
+        <label class="label_scan_complete">Scanning Complete!</label>
+        <button class="save">Save</button>
+        <button class="back">Back</button>
+        <label class="label_result">Result!</label>
+        <div class="perrsonal_information_show">
+            <label class="label_part_length">Part length(cm)</label>
+            <form class="part_lenght">
+                <label class="label_part" id="label_Height"         >Height</label>
+                <label class="label_part" id="label_Left_upper_arm" >Left upper arm</label>
+                <label class="label_part" id="label_Left_lower_arm" >Left lower arm</label>
+                <label class="label_part" id="label_Right_upper_arm">Right upper arm</label>
+                <label class="label_part" id="label_Right_lower_arm">Right lower arm</label>
+                <label class="label_part" id="label_Left_upper_leg" >Left upper leg</label>
+                <label class="label_part" id="label_Left_lower_leg" >Left lower leg</label>
+                <label class="label_part" id="label_Right_upper_leg">Right upper leg</label>
+                <label class="label_part" id="label_Right_lower_leg">Right lower leg</label>
+                <label class="label_part" id="label_Torso"          >Torso</label>
+                <label class="label_part" id="label_Chest"          >Chest</label>
+            </form>
+            <label class="label_angle_limit">Angle Limit(degree)</label>
+            <form class="joint_angle">
+                <label class="label_angle" id="label_Left_elbow"    >Left elbow</label>
+                <label class="label_angle" id="label_Right_elbow"   >Right elbow</label>
+                <label class="label_angle" id="label_Left_shoulder" >Left shoulder</label>
+                <label class="label_angle" id="label_Right_shoulder">Right shoulder</label>
+                <label class="label_angle" id="label_Hip"           >Hip</label>
+                <label class="label_angle" id="label_Chest"         >Chest</label>
+            </form>
+        </div>
+    </div>
+
+    <script src="scanpage.css"></script>
+</body>
+</html >
+
