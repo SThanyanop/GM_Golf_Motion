@@ -1,0 +1,181 @@
+:root{
+    --fonts: Alumni Sans;
+    border: none;
+}
+
+.background{
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #474747;
+    z-index: -1;
+    position: absolute;
+}
+.title_preview{
+    position: absolute;
+    background-color: #D9D9D9;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top-right-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+    font-family: var(--fonts);
+    font-size: 6vh;
+    font-weight: bold;
+}
+.home_btn{
+    z-index: 1;
+    top: 0;
+    right: 0;
+    position: absolute;
+    color: #D9D9D9;
+    background-color: transparent;
+    width: 7vw;
+    height: 5vh;
+    font-family: var(--fonts);
+    font-size: 2vh;
+}
+.back_to_field{
+    z-index: 1;
+    top: 0;
+    right: 7vw;
+    position: absolute;
+    color: #D9D9D9;
+    background-color: transparent;
+    width: 7vw;
+    height: 5vh;
+    font-family: var(--fonts);
+    font-size: 2vh;
+}
+.front_view_preview{
+    position: absolute;
+    background-color: #D9D9D9;
+    top: 12vh;
+    left: 8vw;
+    width: 30vw;
+    height: 80vh;
+    border-radius: 1vh;
+}
+.label_front_view_preview{
+    position: absolute;
+    top: 94vh;
+    left: 19vw;
+    font-family: var(--fonts);
+    font-size: 3vh;
+    font-weight: bold;
+    color: #D9D9D9;
+}
+.side_view_preview{
+    position: absolute;
+    background-color: #D9D9D9;
+    top: 12vh;
+    left: 40vw;
+    width: 30vw;
+    height: 80vh;
+    border-radius: 1vh;
+}
+.label_side_view_preview{
+    position: absolute;
+    top: 94vh;
+    left: 51.5vw;
+    font-family: var(--fonts);
+    font-size: 3vh;
+    font-weight: bold;
+    color: #D9D9D9;
+}
+.label_file{
+    position: absolute;
+    font-family: var(--fonts);
+    font-weight: bold;
+    font-size: 3vh;
+    padding-bottom: 1vh;
+    color: #FFFFFF;
+    top: 12vh;
+    left: 73.5vw;
+}
+.file_selection{
+    position: absolute;
+    top: 18vh;
+    left: 73.5vw;
+    width: 20vw;
+    height: 5vh;
+    font-family: var(--fonts);
+    font-size: 3vh;
+    font-weight: bold;
+    border-radius: 1vh;
+    text-align: center;
+}
+.select_file_btn{
+    position: absolute;
+    top: 25vh;
+    left: 73.5vw;
+    width: 20vw;
+    height: 7vh;
+    border-radius: 1vh;
+    font-family: var(--fonts);
+    font-size: 4vh;
+    font-weight: bold;
+    border: none;
+    background-color: #56A45F;
+}
+.status_preview{
+    position: absolute;
+    top: 34vh;
+    left: 73.5vw;
+    background-color: #D9D9D9;
+    height: 25vh;
+    width: 20vw;
+    border-radius: 1vh;
+}
+.warn_and_macth{
+    position: absolute;
+    font-family: var(--fonts);
+    font-size: 3vh;
+    font-weight: bold;
+    top: 1vh;
+    left: 1vw;
+}
+.show_macth{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 6vh;
+    font-family: var(--fonts);
+    font-size: 1.5vh;
+    font-weight: bold;
+    border-bottom-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+    border: none;
+}
+.macth_name{
+    position: absolute;
+    font-family: var(--fonts);
+    font-size: 3.5vh;
+    font-weight: bolder;
+    top: 6vh;
+    left: 1vw;
+}
+.percent_macth{
+    position: absolute;
+    font-family: var(--fonts);
+    font-size: 12vh;
+    font-weight: bold;
+    height: 15vh;
+    width: 25vh;
+    bottom: 1vh;
+    right: 0;
+}
+.status{
+    position: absolute;
+    top: 120vh;
+    left: 73.5vw;
+    background-color: #D9D9D9;
+    height: 10vh;
+}

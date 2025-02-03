@@ -5,23 +5,27 @@
 <link rel="stylesheet" href="previewpage.css">
 </head>
 <body>
-    <div class="backgrround"></div>
+    <div class="background"></div>
+    <label class="title_preview">Preview</label>
+    <button class="back_to_field" onclick="location.href='fieldpage.html'">field</button>
+    <button class="home_btn" onclick="location.href='mainpage.html'">home</button>
     <div class="front_view_preview"></div>
-    <label class="label_front_view_preview"></label>
+    <label class="label_front_view_preview">Front View</label>
     <div class="side_view_preview"></div>
-    <label class="label_side_view_preview"></label>
-    <section class="file_selection">
+    <label class="label_side_view_preview">Side View</label>
+    <label class="label_file">Select your file</label>
+    <select class="file_selection">
         <option value="file1">Mister Donut</option>
         <option value="file2">Mister Cheese</option>
-    </section>
-    <button class="select_file">select</button>
+    </select>
+    <button class="select_file_btn">select</button>
     <div class="status_preview">
-        <label class="warn_and_macth">xxx</label>
-        <button class="show_macth"></button>
-        <label class="macth_name">xxx</label>
-        <label class="percent_macth">x%</label>
+        <label class="warn_and_macth">Select file first</label>
+        <button class="show_macth">show</button>
+        <label class="macth_name">Unknown</label>
+        <label class="percent_macth">xx%</label>
     </div>
-    <div class="safe">
+    <div class="status">
         <label class="label_safe"></label>
         <div class="safe_level"></div>
         <label class="label_performance"></label>
