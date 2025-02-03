@@ -170,6 +170,8 @@
     background-color: #56A45F;
 }
 .complete{
+    top: 12.5vh;
+    left: 17.5vw;
     position: absolute;
     z-index: 10;
     display: flex;
@@ -177,5 +179,48 @@
     background-color: #1E1E1E;
     height: 75vh;
     width: 65vw;
+    border-radius: 1vh;
+}
+.label_scan_complete{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: var(--fonts);
+    font-size: 6vh;
+    font-weight: bold;
+    top: 2.5vh;
+    left: 18vw;
+    height: 6vh;
+    width: 26vw;
+}
+.filename{
+    position: absolute;
+    font-family: var(--fonts);
+    width: 33vw;
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5vh;
+    border: none;
+    border-radius: 1vh;
+    background-color: #D9D9D9;
+    top: 12.5vh;
+    left: 2.5vw;
+}
+.save{
+    position: absolute;
+    top: 12.5vh;
+    left: 38vw;
+    height: 7.5vh;
+    width: 12vw;
+    border-radius: 1vh;
+}
+.back{
+    position: absolute;
+    top: 12.5vh;
+    left: 51vw;
+    height: 7.5vh;
+    width: 12vw;
     border-radius: 1vh;
 }
