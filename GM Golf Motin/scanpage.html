@@ -5,28 +5,32 @@
 <link rel="stylesheet" href="scanpage.css">
 </head>
 <body>
-    <div class="backgrround"></div>
+    <div class="background"></div>
+    <div class="title_scanbody">
+        <label class="label_scanbody">Scan your body</label>
+    </div>
     <div class="preset1"></div>
     <label class="lable_preset1">Preset1</label>
     <div class="preset2"></div>
     <label class="lable_preset2">Preset2</label>
-    <button type="home_btn" onclick="location.href='mainpage.html'">Home</button>
-    <form class="perrsonal_information">
-        <label class="lable_gender">Gender</label>
+    <button class="home_btn" onclick="location.href='mainpage.html'">Home</button>
+    <form class="personal_information">
+        <label class="label_gender">Gender</label>
         <select class="gender">
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select>
         <label class="label_height">Height</label>
-        <input class="height" type="number">
-        <label class="label_weight">weight</label>
-        <input class="weight" type="number">
+        <input class="height" type="number" placeholder="INPUT">
+        <label class="label_weight">Weight</label>
+        <input class="weight" type="number" placeholder="INPUT">
     </form>
     <div class="instruction"></div>
     <button class="scan_btn">scan</button>
 
     <div class="complete">
         <label class="label_scan_complete">Scanning Complete!</label>
+        <input class="filename" placeholder="File Name">
         <button class="save">Save</button>
         <button class="back">Back</button>
         <label class="label_result">Result!</label>

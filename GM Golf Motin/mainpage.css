@@ -1,0 +1,70 @@
+:root{
+    --fonts: Alumni Sans;
+}
+
+.background{
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #474747;
+    z-index: -1;
+    position: absolute;
+}
+
+.main{
+    position: absolute;
+    top: 6vh;
+    right: 0%;
+    width: 100vw;
+    height: 88vh;
+    background-color: #D9D9D9;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 8vw;
+    height: 88vh;
+}
+.scan_btn{
+    position: absolute;
+    top: 12vh;
+    right: 0;
+    width: 40vw;
+    height: 20vh;
+    border-top-left-radius: 4vh;
+    border-bottom-left-radius: 4vh;
+    border: none;
+    background-color: #56A45F;
+    font-family: var(--fonts);
+    font-size: 8vh;
+    font-weight: bold;
+}
+.learn_btn{
+    position: absolute;
+    top: 35vh;
+    right: 0;
+    width: 35vw;
+    height: 20vh;
+    border-top-left-radius: 4vh;
+    border-bottom-left-radius: 4vh;
+    border: none;
+    background-color: #F3C96F;
+    font-family: var(--fonts);
+    font-size: 8vh;
+    font-weight: bold;
+}
+.exit_btn{
+    position: absolute;
+    top: 58vh;
+    right: 0;
+    width: 15vw;
+    height: 20vh;
+    border-top-left-radius: 4vh;
+    border-bottom-left-radius: 4vh;
+    border: none;
+    background-color: #EE7373;
+    font-family: var(--fonts);
+    font-size: 8vh;
+    font-weight: bold;
+}
