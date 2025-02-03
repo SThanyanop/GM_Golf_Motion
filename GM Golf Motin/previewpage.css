@@ -172,10 +172,49 @@
     bottom: 1vh;
     right: 0;
 }
-.status{
+.stat{
     position: absolute;
-    top: 120vh;
+    top: 61vh;
     left: 73.5vw;
     background-color: #D9D9D9;
-    height: 10vh;
+    height: 20.5vh;
+    width: 20vw;
+    border-radius: 1vh;
+}
+.next_btn{
+    position: absolute;
+    top: 83vh;
+    left: 73.5vw;
+    height: 9vh;
+    width: 20vw;
+    border-radius: 1vh;
+    font-family: var(--fonts);
+    font-size: 4vh;
+    font-weight: bold;
+    background-color: #56A45F;
+}
+.display_macth{
+    position: absolute;
+    height: 85vh;
+    width: 80vw;
+    background-color: #1E1E1E;
+    border-radius: 1vh;
+    top: 7.5vh;
+    left: 10vw;
+    border-width: 1vh;
+    border-color: aqua;
+}
+.macth_name{
+    position: absolute;
+    color: #FFFFFF;
+    top: 2vh;
+    left: 2vw;
+    font-family: var(--fonts);
+    font-size: 9vh;
+
+}
+.label_body_prop{
+    position: absolute;
+    font-family: var(--fonts);
+    
 }
