@@ -21,7 +21,7 @@
     <button class="select_file_btn">select</button>
     <div class="status_preview">
         <label class="warn_and_macth">Select file first</label>
-        <button class="show_macth">show</button>
+        <button class="show_macth" onclick="show_macth()">show</button>
         <label class="macth_name">Unknown</label>
         <label class="percent_macth">xx%</label>
     </div>
@@ -32,7 +32,8 @@
         <div class="performance_level"></div>
     </div>
     <button class="next_btn" onclick="location.href='learnpage.html'">Next</button>
-    <div class="display_macth">
+    <div class="display_macth" id="display_macth">
+        <button class="leave" onclick="close_macth()">X</button>
         <label class="macth_name_stat">Name</label>
         <label class="label_body_prop">Body Proportions</label>
         <div class="macth_body">
@@ -87,6 +88,6 @@
             </form>
         </div>
     </div>
-    <script src="previewpage.js"></script>
+    <script src="func.js"></script>
 </body>
 </html >

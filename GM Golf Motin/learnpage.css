@@ -218,11 +218,11 @@
     font-weight: bold;
 }
 .side_view_side{
-    z-index: -2;
+    z-index: 2;
     position: absolute;
 }
 .front_view_side{
-    z-index: 2;
+    z-index: -2;
     position: absolute;
 }
 .label_step{

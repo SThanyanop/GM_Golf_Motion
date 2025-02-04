@@ -10,23 +10,23 @@
     <button class="back_to_preview" onclick="location.href='Previewpage.html'">Preview</button>
     <button class="home_btn" onclick="location.href='mainpage.html'">home</button>
     <div class="learn_window">
-        <div class="your_front_main"></div>
-        <label class="label_your_front_main">Front camera</label>
-        <div class="model_front_main"></div>
-        <label class="label_model_front_main">Front model</label>
-        <div class="your_side_main"></div>
-        <label class="label_your_side_main">Side camera</label>
-        <div class="model_side_main"></div>
-        <label class="label_model_side_main">Side model</label>
+        <div class="your_front_main" id="your_front_main"></div>
+        <label class="label_your_front_main" id="label_your_front_main">Front camera</label>
+        <div class="model_front_main" id="model_front_main"></div>
+        <label class="label_model_front_main" id="label_model_front_main">Front model</label>
+        <div class="your_side_main" id="your_side_main"></div>
+        <label class="label_your_side_main" id="label_your_side_main">Side camera</label>
+        <div class="model_side_main" id="model_side_main"></div>
+        <label class="label_model_side_main" id="label_model_side_main">Side model</label>
     </div>
-    <button class="swap">Swap</button>
-    <div class="front_view_side">
+    <button class="swap" onclick="swap()">Swap</button>
+    <div class="front_view_side" id="front_view_side">
         <div class="your_front_side"></div>
         <label class="label_your_front_side">Front camera</label>
         <div class="model_front_side"></div>
         <label class="label_model_front_side">Front model</label>
     </div>
-    <div class="side_view_side">
+    <div class="side_view_side" id="side_view_side">
         <div class="your_side_side"></div>
         <label class="label_your_side_side">Side camera</label>
         <div class="model_side_side"></div>
@@ -41,6 +41,6 @@
     <div class="description">
         <label class="label_description">Description</label>
     </div>
-    <script src="learnpage.js"></script>
+    <script src="func.js"></script>
 </body>
 </html >

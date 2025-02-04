@@ -26,13 +26,13 @@
         <input class="weight" type="number" placeholder="INPUT">
     </form>
     <div class="instruction"></div>
-    <button class="scan_btn" onclick="location.href='fieldpage.html'">scan</button>
+    <button class="scan_btn" onclick="show_scan_complete()">scan</button>
 
-    <div class="complete">
+    <div class="complete" id="complete">
         <label class="label_scan_complete">Scanning Complete!</label>
         <input class="filename" placeholder="File Name">
-        <button class="save">Save</button>
-        <button class="back">Back</button>
+        <button class="save"  onclick="location.href='fieldpage.html'">Save</button>
+        <button class="back" onclick="close_scan_complete()">Back</button>
         <label class="label_result">Result!</label>
         <div class="personal_information_show">
             <label class="label_part_length">Part length(cm)</label>
@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <script src="scanpage.css"></script>
+    <script src="func.js"></script>
 </body>
 </html >
 

@@ -173,7 +173,7 @@
     top: 12.5vh;
     left: 17.5vw;
     position: absolute;
-    z-index: 10;
+    z-index: -10;
     display: flex;
     flex-direction: column;
     background-color: #1E1E1E;
@@ -190,7 +190,7 @@
     top: 2.5vh;
     left: 18vw;
     height: 6vh;
-    width: 26vw;
+    width: 30vw;
 }
 .filename{
     position: absolute;

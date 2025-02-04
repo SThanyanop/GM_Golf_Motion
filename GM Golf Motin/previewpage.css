@@ -240,7 +240,7 @@
     left: 10vw;
     border-width: 1vh;
     border-color: aqua;
-    z-index: 10;
+    z-index: -10;
 }
 .macth_name_stat{
     position: absolute;
@@ -366,4 +366,17 @@
     font-family: var(--fonts);
     padding: 0.7vh;
     font-size: 2.5vh;
+}
+.leave{
+    position: absolute;
+    border: none;
+    right: 0;
+    top: 0;
+    height: 5vh;
+    width: 5vh;
+    border-bottom-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: #FF5C5C;
 }
