@@ -240,7 +240,7 @@
     left: 10vw;
     border-width: 1vh;
     border-color: aqua;
-    z-index: -10;
+    z-index: 10;
 }
 .macth_name_stat{
     position: absolute;
