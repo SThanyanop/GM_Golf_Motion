@@ -193,7 +193,7 @@
     position: absolute;
     background-color: #56A45F;
     height: 4vh;
-    width: 10vw;
+    width: 15vw;
     top: 5vh;
     left: 1vw;
     border-top-right-radius: 1vh;
@@ -214,7 +214,7 @@
     border-bottom-right-radius: 1vh;
     background-color: #FF5C5C;
     height: 4vh;
-    width: 10vw;
+    width: 17vw;
     top: 15.5vh;
     left: 1vw;
 }
@@ -287,11 +287,13 @@
     flex-direction: column;
     top: 8vh;
     left: 18vw;
+    font-weight: bolder;
 }
 .label_part_macth{
     font-family: var(--fonts);
     padding: 0.7vh;
     font-size: 2.5vh;
+    font-weight: bolder;
 }
 .label_part_length_macth{
     position: absolute;
@@ -361,11 +363,13 @@
     flex-direction: column;
     top: 8vh;
     left: 18vw;
+    font-weight: bolder;
 }
 .label_part_your{
     font-family: var(--fonts);
     padding: 0.7vh;
     font-size: 2.5vh;
+    font-weight: bolder;
 }
 .leave{
     position: absolute;
@@ -379,4 +383,44 @@
     font-size: 3vh;
     font-weight: bold;
     background-color: #FF5C5C;
+}
+
+#label_Height_macth,
+#label_Height_your,
+#label_Left_upper_leg_macth,
+#label_Left_upper_leg_your,
+#label_Left_lower_leg_macth,
+#label_Left_lower_leg_your,
+#label_Chest_macth,
+#label_Chest_your,
+#label_Chests_macth,
+#label_Chests_your
+{
+    color: #FF5C5C;
+}
+#label_Left_upper_arm_macth, 
+#label_Left_upper_arm_your, 
+#label_Left_lower_arm_macth, 
+#label_Left_lower_arm_your,
+#label_Right_upper_arm_macth,
+#label_Right_upper_arm_your,
+#label_Right_lower_arm_macth,
+#label_Right_lower_arm_your,
+#label_Right_upper_leg_macth,
+#label_Right_upper_leg_your,
+#label_Right_lower_leg_macth,
+#label_Right_lower_leg_your,
+#label_Torso_macth,
+#label_Torso_your,
+#label_Left_elbow_macth,
+#label_Left_elbow_your,
+#label_Right_elbow_macth,
+#label_Right_elbow_your,
+#label_Left_shoulder_macth,
+#label_Left_shoulder_your,
+#label_Right_shoulder_macth,
+#label_Right_shoulder_your,
+#label_Hip_macth,
+#label_Hip_your{
+    color: #56A45F;
 }
